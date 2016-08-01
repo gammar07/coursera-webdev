@@ -26,10 +26,11 @@ p.title {
   border: 1px solid black;
   width: 30%;
   margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
   font-size: 125%;
   color: white;
-  margin-right: 20px;
 }
 
 #p1 {

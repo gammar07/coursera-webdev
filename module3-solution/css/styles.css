@@ -1,0 +1,51 @@
+/** HEADER **/
+.navbar {
+	background-color: #cc3300
+}
+#nav-list {
+	background-color: #cc9900;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+	font-color: white;
+	text-align: center;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+ }
+.navbar-header {
+	height: 100px;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+/** END OF HEADER **/
+
+/* MAIN CONTENT */
+#home-content {
+	background-color: #ffff99;
+}
+.main-content-heading {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* END OF MAIN CONTENT */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+#home-content {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+}
+

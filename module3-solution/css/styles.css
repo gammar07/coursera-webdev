@@ -27,13 +27,15 @@
 /** END OF HEADER **/
 
 /* MAIN CONTENT */
-#home-content {
-	background-color: #ffff99;
-}
 .main-content-heading {
 	font-size: 1.5em;
 	text-align: center;
 }
+section > .mg-column {
+	margin: 5px;
+	background-color: #ffff99;
+}
+
 
 /* END OF MAIN CONTENT */
 
